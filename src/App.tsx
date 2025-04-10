@@ -316,11 +316,11 @@ function App() {
         {/* Footer */}
 <footer className="mt-8 text-center text-sm text-gray-500">
   powered by&nbsp;&nbsp;<a 
-    href="https://calc.jessejesse.com/" 
+    href="https://ip.jessejesse.com/" 
     target="_blank" 
     rel="noopener noreferrer" 
     className="hover:underline text-green-700"
-  >jessejesse.com</a>
+  >ip.jessejesse.com</a>
 </footer>
       </div>
     </div>
