@@ -148,7 +148,7 @@ function App() {
 
   const getUsableRange = (): { first: string; last: string } => {
     if (ipAddress.isIPv6) {
-      return { first: 'N/A (IPv6)', last: 'N/A (IPv6)' };
+      return { first: '(IPv6)', last: '(IPv6)' };
     }
     
     const networkAddr = getNetworkAddress().split('.').map(n => parseInt(n));
