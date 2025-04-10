@@ -181,7 +181,16 @@ function App() {
         <div className="flex items-center justify-between mb-8">
           <div className="flex items-center gap-3">
             <Calculator className={`w-8 h-8 ${darkMode ? 'text-blue-400' : 'text-blue-600'}`} />
-            <h1 className="text-3xl font-bold">IP Calculator</h1>
+         <a
+  href="https://ip.jessejesse.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-indigo-600"
+>
+  <h1 className="text-3xl font-bold">IP Calculator</h1>
+</a>
+
+
           </div>
           <button
             onClick={() => setDarkMode(!darkMode)}
