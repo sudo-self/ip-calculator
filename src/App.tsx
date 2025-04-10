@@ -197,8 +197,8 @@ function App() {
               onClick={toggleIPVersion}
               className={`px-4 py-2 rounded-lg ${
                 darkMode 
-                  ? 'bg-blue-600 hover:bg-blue-700' 
-                  : 'bg-blue-500 hover:bg-blue-600 text-white'
+                  ? 'bg-gray-600 hover:bg-green-700' 
+                  : 'bg-gray-500 hover:bg-green-600 text-white'
               }`}
             >
               Switch to {ipAddress.isIPv6 ? 'IPv4' : 'IPv6'}
@@ -313,9 +313,22 @@ function App() {
             </div>
           </div>
         </div>
+        {/* Footer */}
+<footer className="mt-8 text-center text-sm text-gray-500">
+  powered by&nbsp;&nbsp;<a 
+    href="https://calc.jessejesse.com/" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="hover:underline text-green-700"
+  >jessejesse.com</a>
+</footer>
       </div>
     </div>
   );
 }
 
 export default App;
+
+
+
+
