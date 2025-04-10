@@ -121,7 +121,7 @@ function App() {
   };
 
   const getIPClass = (): string => {
-    if (ipAddress.isIPv6) return 'N/A (IPv6)';
+    if (ipAddress.isIPv6) return '(IPv6)';
     
     const firstOctet = ipAddress.octets[0];
     if (firstOctet >= 1 && firstOctet <= 126) return 'A';
